@@ -1,0 +1,48 @@
+%YAML 1.1
+---
+actions:
+- utter_greet
+- utter_ask_pizza_name
+- utter_ask_pizza_size
+- utter_confirm
+- utter_goodbye
+config:
+  store_entities_as_slots: true
+entities:
+- food
+- pizza
+- size
+forms: []
+intents:
+- greet:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- order_pizza:
+    use_entities: true
+- order_pizzasize:
+    use_entities: true
+slots:
+  food:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  pizza:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  size:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_ask_pizza_name:
+  - text: What kind of pizza you would like to have? Mushroom, Chicken, Paneer
+  utter_ask_pizza_size:
+  - text: Which pizza size you prefer? Regular, medium, large
+  utter_confirm:
+  - text: Your {size} {pizza} {food} is confirmed. Please collect at the counter
+    utter_goodbye: null
+  - text: Bye! See you next time.
+  utter_greet:
+  - text: Hello! Welcome to our cafe. How can I help you?

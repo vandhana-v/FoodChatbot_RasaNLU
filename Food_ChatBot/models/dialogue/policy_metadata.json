@@ -1,0 +1,33 @@
+{
+  "action_fingerprints": {
+    "action_listen": {
+      "slots": [
+        "pizza",
+        "size"
+      ]
+    },
+    "utter_goodbye": {
+      "slots": []
+    },
+    "utter_ask_pizza_name": {
+      "slots": []
+    },
+    "utter_greet": {
+      "slots": []
+    }
+  },
+  "python": "3.7.2",
+  "max_histories": [
+    5,
+    5
+  ],
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
+  "policy_names": [
+    "rasa_core.policies.memoization.MemoizationPolicy",
+    "rasa_core.policies.keras_policy.KerasPolicy"
+  ],
+  "trained_at": "20190323-144103",
+  "rasa_core": "0.13.3",
+  "tensorflow": "1.13.1",
+  "sklearn": "0.20.3"
+}

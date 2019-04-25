@@ -1,0 +1,261 @@
+﻿{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "hey",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "howdy",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hey there",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hello",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hi",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "i'm looking to order a pizza",
+        "intent": "order_pizza",
+        "entities": [
+          {
+            "start": 23,
+            "end": 28,
+            "value": "pizza",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "I want to order a pizza",
+        "intent": "order_pizza",
+        "entities": [
+          {
+            "start": 18,
+            "end": 24,
+            "value": "pizza",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "What are the types of pizza you have",
+        "intent": "order_pizza",
+        "entities": [
+          {
+            "start": 22,
+            "end": 27,
+            "value": "pizza",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "yes",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "yep",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "yeah",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "Order for me  the Mushroom pizza",
+        "intent": "order_pizza",
+        "entities": [
+          {
+            "start": 18,
+            "end": 26,
+            "value": "Mushroom",
+            "entity": "pizza"
+          },
+          {
+            "start": 27,
+            "end": 32,
+            "value": "pizza",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "goodbye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "good bye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "stop",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "end",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "indeed",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "that's right",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "ok",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "great",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "do you have any Mushroom pizza?",
+        "intent": "order_pizza",
+        "entities": [
+          {
+            "start": 16,
+            "end": 24,
+            "value": "Mushroom",
+            "entity": "pizza"
+          },
+          {
+            "start": 25,
+            "end": 30,
+            "value": "pizza",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "What is the price of  Mushroom pizza?",
+        "intent": "order_pizza",
+        "entities": [
+          {
+            "start": 22,
+            "end": 30,
+            "value": "Mushroom",
+            "entity": "pizza"
+          },
+          {
+            "start": 31,
+            "end": 36,
+            "value": "pizza",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "have a good day",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "take care",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "Can I order a pizza?",
+        "intent": "order_pizza",
+        "entities": [
+          {
+            "start": 14,
+            "end": 19,
+            "value": "pizza",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "Can I order an Paneer pizza?",
+        "intent": "order_pizza",
+        "entities": [
+          {
+            "start": 15,
+            "end": 21,
+            "value": "Paneer",
+            "entity": "pizza"
+          },
+          {
+            "start": 22,
+            "end": 27,
+            "value": "pizza",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "I would like to order a pizza",
+        "intent": "order_pizza",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": " pizza",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "I would like to order an Chicken pizza",
+        "intent": "order_pizza",
+        "entities": [
+          {
+            "start": 25,
+            "end": 32,
+            "value": "Chicken",
+            "entity": "pizza"
+          },
+          {
+            "start": 33,
+            "end": 38,
+            "value": "pizza",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "I want to order a product",
+        "intent": "order_pizza",
+        "entities": []
+      },
+      {
+        "text": "Can I order a product",
+        "intent": "order_pizza",
+        "entities": []
+      },
+      {
+        "text": "How can I order a product",
+        "intent": "order_pizza",
+        "entities": []
+      }
+    ]
+  }
+}
